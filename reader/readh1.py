@@ -1,6 +1,6 @@
 import netCDF4 as nc
 import numpy as np
-from pathconfig import EXP_folder
+from LAI2026pkgs.pathconfig import EXP_folder
 
 h1_var_list = {}
 h1_var_list["atm"] = ['FLDS', 'FLNSC', 'FSDS', 'FSDSC', 'LHFLX', 'PRECC', 'PRECT', 'SHFLX', 'ch4vmr', 'co2vmr']
